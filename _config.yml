@@ -12,6 +12,9 @@ author:
 # Theme - Hitchens
 theme: hitchens-theme
 
+# hitchens readme says -may need to add this - added after build failed
+ignore_theme_config: true
+
 # Theme - using the Creative theme via remote_theme
 # remote_theme: vvalchev/creative-theme-jekyll-new
 
