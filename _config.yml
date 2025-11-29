@@ -9,8 +9,11 @@ author:
   name: Your Name
   email: your.email@example.com
 
+# Theme - Hitchens
+theme: hitchens-theme
+
 # Theme - using the Creative theme via remote_theme
-remote_theme: vvalchev/creative-theme-jekyll-new
+# remote_theme: vvalchev/creative-theme-jekyll-new
 
 # Build settings - kramdown is a Markdown parser - it turns Markdown files into html code
 # Rouge is a syntax highlighter for code blocks. It adds color coding to make code more readable. Rouge parses it and adds HTML/CSS classes that colorize the output
