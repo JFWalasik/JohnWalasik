@@ -1,0 +1,36 @@
+# Site settings
+title: Your Site Title
+description: A brief description of your site
+url: "https://jfwalasik.github.io"  # Replace with your GitHub Pages URL
+baseurl: "/JohnWalasik"  # Leave empty for username.github.io, or "/repo-name" for project sites
+
+# Author info
+author:
+  name: Your Name
+  email: your.email@example.com
+
+# Theme - using the Creative theme via remote_theme
+remote_theme: vvalchev/creative-theme-jekyll-new
+
+# Build settings - kramdown is a Markdown parser - it turns Markdown files into html code
+# Rouge is a syntax highlighter for code blocks. It adds color coding to make code more readable. Rouge parses it and adds HTML/CSS classes that colorize the output
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files from the build. They are read by GitHub to install dependencies (packages like Jekyll) but not included in the site's output -- I.e., not loaded to the site and accessible by users. So, not completely excluded, just excluded from output.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Permalink style -- controls the URL structure for your pages and posts. Research this more?
+permalink: /:title/
